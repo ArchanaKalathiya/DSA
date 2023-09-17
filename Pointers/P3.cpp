@@ -7,7 +7,7 @@ int main() {
     int *p=&a;
     int **q=&p;
     cout<<a<<" "<<**q<<" "<<*p<<endl;   //prints the value of a
-    cout<<&a<<" "<<p<<" "<<*q<<endl;    //prints the address of a
-    cout<<&p<<" "<<q;        //pritns the address of p
+    cout<<&a<<" "<<p<<" "<<*q<<endl;    //prints the address of p
+    cout<<&p<<" "<<q;                   //pritns the address of a
     return 0;
 }
