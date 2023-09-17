@@ -8,5 +8,11 @@ int main(){
     cout<<*y<<endl;     //Prints value of x
     y++;                //incrementing the address of x which is stored in the pointer y
     cout<<y<<endl;      //Print incremented address
+
+    char c='a';
+    char *d=&c;
+    cout<<*d<<endl;
+    d++;
+    cout<<d<<endl;
     return 0;
 }
