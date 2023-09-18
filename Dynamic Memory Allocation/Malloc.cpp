@@ -1,3 +1,4 @@
+//Malloc function doesn't intitalizzes memory at the execution time so each block will initalize with the garbage vale
 #include<bits/stdc++.h>
 using namespace std;
 
