@@ -30,7 +30,8 @@ using namespace std;
 
 // Approach 2 
 // Using Sorting 
-
+// Time Complexity : o(n^2)
+// Auxiliary Space : O(1)
 bool Pythagorean_triplet(int arr[],int n){
     for(int i=0;i<n;i++){
         arr[i]=arr[i]*arr[i];
